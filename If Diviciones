@@ -1,0 +1,10 @@
+#Programa que hace diviciones
+
+Num1 = int(input("Escribe el primer numero: "))
+Num2 = int(input("Escribe el segundo numero: "))
+
+if Num2 == 0:
+    print("Lo siento mi hermano, no se puede dividir")
+else:
+    print("El resultado es:")
+    print(Num1/Num2)    
